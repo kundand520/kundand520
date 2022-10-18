@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int age,fare;
+	printf("Enter the age and fare");
+	scanf("%d%d",&age,&fare);
+	
+	if(age<14==0)
+{
+	fare=fare-fare*0.2;
+}
+else if(age>50==0)
+{
+	fare=fare-fare*0.5;
+}
+else
+{
+	fare=fare-fare*0.1;
+}
+printf("Net fare=%d",fare);
+getch();
+}
